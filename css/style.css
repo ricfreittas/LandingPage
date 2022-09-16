@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+header img {
+    height: 72px;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+header nav a {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+main {
+    border-top: 0.1px solid #FFF2E7;
+}
+
+.primary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+section img {
+    height: 430px;
+}
+
+#title {
+    font-family: 'Righteous', cursive ;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+#sub-title {
+    font-family: 'Salara', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+#button {
+    border: none;
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Salara', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.secundary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 48px;
+    padding: 32px;
+}
+
+#tree-title {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive ;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+section p {
+    font-family: 'Salara', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 00.4px solid #FFF2E7;
+}
+
+footer img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
